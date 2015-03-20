@@ -8,6 +8,9 @@
 
 @import Foundation;
 
+@import UIKit;
+
+
 @interface JTSImageInfo : NSObject
 
 @property (strong, nonatomic) UIImage *image; // If nil, be sure to set either imageURL or canonicalImageURL.

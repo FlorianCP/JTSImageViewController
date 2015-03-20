@@ -8,6 +8,9 @@
 
 @import Foundation;
 
+@import UIKit;
+
+
 @interface JTSSimpleImageDownloader : NSObject
 
 + (NSURLSessionDataTask *)downloadImageForURL:(NSURL *)imageURL
